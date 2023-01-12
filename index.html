@@ -1,74 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Alexander Johnson's Website</h1>
-      <nav>
-          <a href="#about" class="button">About</a>
-          <a href="#experience" class="button">Experience</a>
-          <a href="#projects" class="button">Projects</a>
-          <a href="#contact" class="button">Contact</a>
-      </nav>
-    </header>
-    <div class="grid">
-      <div class="grid-item">
-    
-        <main>
-          <section id="about">
-            <h2>About Me</h2>
-            <p>Add your own content here.</p>
-          </section>
-          <section id="experience">
-            <h2>Experience</h2>
-            <h3>Add your own content here.</h3>
-            <p>Add your own content here.</p>
-            <ul>
-              <li>Add your own content here.</li>
-              <li>Add your own content here.</li>
-              <li>Add your own content here.</li>
-            </ul>
-          </section>
-          <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-              <li>
-                <h3>Add your own content here.</h3>
-                <p>Add your own content here.</p>
-                <a href="#">Add your own content here.</a>
-              </li>
-              <li>
-                <h3>Add your own content here.</h3>
-                <p>Add your own content here.</p>
-                <a href="#">Add your own content here.</a>
-              </li>
-              <li>
-                <h3>Add your own content here.</h3>
-                <p>Add your own content here.</p>
-                <a href="#">Add your own content here.</a>
-              </li>
-            </ul>
-          </section>
-          <section id="contact">
-            <h2>Contact</h2>
-          </section>
-        </main>
+  <div class="container">
+    <head>
+      <meta charset="utf-8">
+      <title>Alexander's Website</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <div class="content-div">
+      <body>
+        <header>
+          <div class="grid">
+            <div class="grid-item">
+              <h1>Alexander Johnson's Website</h1>
+            </div>
+            <div class="grid-item">
+              <nav>
+                <a href="#about" class="button">About Me</a>
+                <a href="#experience" class="button">Experience</a>
+                <a href="#projects" class="button">Projects</a>
+                <a href="#contact" class="button">Contact</a>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="grid">
+          <div class="grid-item"><img src="images\6m6a1918.jpg" alt="Image1">
+          </div>
+          <div class="grid-item">
+            <main>
+              <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Alexander Johnson! I am a Computer Engineering student at the University of North Texas. I am passionate about STEM, Jesus, Drumming, and spending quality time with family.</p>
+              </section>
+              <section id="experience">
+                <h2>Experience</h2>
+                <ul>
+                  <li>Private Drum Instructor for younger students</li>
+                  <li>Volunteer at church</li>
+                </ul>
+              </section>
+              <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                  <li>Built a property tax calculator in C++</li>
+                  <li>Built a student grading system in C++</li>
+                  <li>Implemented a library booking system using vectors in C++</li>
+                </ul>
+              </section>
+            </main>
+          </div>
+        </div>
+      </body>
+    </div>
+    <footer>
+      <div class="container">
+        <section id="contact">
+          <li><a href="https://gmail.com">aj34johnson2021@gmail.com</a></li>
+        </section>
       </div>
-      <div class="grid-item"><img src="images\6m6a1918.jpg" alt="Image1">
-        <h1 class="text">
-          Contact me!
-        </h1>
-        <p class="text">
-          aj34johnson2021@gmail.com
-          (twitter)
-          (linkedin)
-        </p>
-      </div>
-  </div>
-    <script src="app.js"></script>
-  </body>
+    </footer> 
+  </div> 
 </html>
